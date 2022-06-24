@@ -47,11 +47,7 @@ function cambiarTurno(){
 	else{
 		turno = 1;
 	}
-	/*
-		Otra forma de hacerlo:
-		turno += 1;
-		turno %= 2;
-	*/
+	
 }
 
 function estado(){
@@ -101,7 +97,6 @@ function estado(){
 		posicionVictoria = 8;
 	}
 
-	//Comprobamos quien ha ganado
 	if(posicionVictoria > 0){
 		if(turno == 1){
 			nEstado = 1;
